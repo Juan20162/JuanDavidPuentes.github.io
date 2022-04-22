@@ -1,1 +1,0 @@
-# JuanDavidPuentes.github.io
