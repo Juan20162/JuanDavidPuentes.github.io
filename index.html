@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Salida decimal adc de microcontrolador</title>
+        <link rel="stylesheet" href="css/newcss.css">
+        <script type="text/javascript" src="js/oper.js"></script>
+          
+    </head>
+    <body>
+        <img src="usco.jpg" alt="Logo_usco">
+        <h1> APLICACIONES MÓVILES 2022-1</h1>
+        <h2> Ingeniería Electrónica</h2>
+        <h2> Juan David Puentes Gonzalez</h2>
+        <h3> Codigo: 20162152837</h2>
+        <h2> Taller N°2</h3>
+        <Form name="MyForm">
+            <h4>Salida decimal ADC de microcontrolador</h4>
+                <img src="microcontrolador.png" alt="circuito">
+                <h5>Ingresar Vin:</h5> 
+                <input type="text" name="Vin" size="2" style="text-align:center" ><br>
+                <h5>Ingresar Vf:</h5>
+                <input type="text" name="Vf" size="2" style="text-align:center" ><br>
+                <h5>Ingresar ADC resolución:</h5>
+                <input type="text" name="adc" size="2" style="text-align:center" ><br><br>
+                <input type="button" class="btn btn-info" value="RESULTADOS" onclick="operacion()"><br>
+                <h5 id="LSB" >El valor del LSB  es </h5>
+                <h5 id="Vdecimal" >La salida decimal ADC del microcontrolador es </h5><br>
+        </Form>
+    </body>
+</html>
