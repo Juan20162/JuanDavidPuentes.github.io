@@ -1,3 +1,4 @@
+
 function operacion(){
     var vin=parseFloat(document.MyForm.Vin.value);
     var vf=parseFloat(document.MyForm.Vf.value);
